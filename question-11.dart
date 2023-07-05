@@ -1,13 +1,13 @@
 void main() {
-  int rows = 4; // Number of rows in the pattern
+  int rows = 4;
 
   for (int i = 1; i <= rows; i++) {
-    String pattern = ""; // Pattern for the current row
+    String pattern = "";
 
     for (int j = 1; j <= i; j++) {
-      pattern += '*'; // Add the current number to the pattern
+      pattern += '*';
     }
 
-    print(pattern); // Print the pattern for the current row
+    print(pattern);
   }
 }
